@@ -1,0 +1,116 @@
+/* Base styles with colors and smooth transition */
+
+html{ /*universal color rule*/
+    background-color: #228B22;
+}
+.navLink{  
+  /* class for links to other pages.
+    makes block objects in line (default block display)
+  */
+  
+  display: inline-block;
+  text-align: center;
+
+
+}
+a{
+    
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    width: 100px;
+    height:30px;
+    display:block;
+}
+.navLink.Arryn {
+  color: #1E90FF;
+  background-color: #F0F8FF;
+  transition: all 0.3s ease;
+}
+
+.navLink.Baratheon {
+  color: #FFD700;
+  background-color: #2F2F2F;
+  transition: all 0.3s ease;
+}
+
+.navLink.Greyjoy {
+  color: #E0B000;
+  background-color: #1C1C1C;
+  transition: all 0.3s ease;
+}
+
+.navLink.Lannister {
+  color: #9B1C1C;
+  background-color: #D4AF37;
+  transition: all 0.3s ease;
+}
+
+.navLink.Martell {
+  color: #FF8C00;
+  background-color: #B22222;
+  transition: all 0.3s ease;
+}
+
+.navLink.Stark {
+  color: #708090;
+  background-color: #F8F8FF;
+  transition: all 0.3s ease;
+}
+
+.navLink.Targaryen {
+  color: #B22222;
+  background-color: #000000;
+  transition: all 0.3s ease;
+}
+
+.navLink.Tully {
+  color: #4169E1;
+  background-color: #C0C0C0;
+  transition: all 0.3s ease;
+}
+
+.navLink.Tyrell {
+  color: #228B22;
+  background-color: #FFD700;
+  transition: all 0.3s ease;
+}
+
+/* Hover glow effects */
+.navLink.Arryn:hover {
+  text-shadow: 0 0 15px #87CEFA; /* lighter blue glow */
+}
+
+.navLink.Baratheon:hover {
+  text-shadow: 0 0 15px #FFFACD; /* lemon chiffon */
+}
+
+.navLink.Greyjoy:hover {
+  text-shadow: 0 0 15px #FFD700; /* bright gold */
+}
+
+.navLink.Lannister:hover {
+  text-shadow: 0 0 15px #FFD700; /* gold glow on dark red */
+}
+
+.navLink.Martell:hover {
+  text-shadow: 0 0 15px #FF6347; /* tomato */
+}
+
+.navLink.Stark:hover {
+  text-shadow: 0 0 15px #D3D3D3; /* light gray */
+}
+
+.navLink.Targaryen:hover {
+  text-shadow: 0 0 15px #FF4500; /* orange red */
+}
+
+.navLink.Tully:hover {
+  text-shadow: 0 0 15px #87CEEB; /* sky blue */
+}
+
+.navLink.Tyrell:hover {
+  text-shadow: 0 0 15px #98FB98; /* pale green */
+}
+
+
